@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        img {
+            width: 200px;
+        }
+
+        .container {
+            background-color: teal;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Withing in Container we have image classes </h1>
+        <p>class: rounded</p>
+        <p>class: rounded-circle</p>
+        <p>class: img-thumbnail</p>
+        <img src="./img/gal02.jpg" class="rounded" alt="img02">
+        <img src="./img/gal02.jpg" class="rounded-circle" alt="img02">
+        <img src="./img/gal02.jpg" class="img-thumbnail" alt="img02">
+    </div>
+
+
+    <div class="container mt-3">
+        <h2>Aligning images</h2>
+        <p>Use the float classes to float the image to the left or to the right:</p>
+        <p>float-start</p>
+        <p>float-end</p>
+        <img src="./img/gal02.jpg" class="float-start" alt="img02" width="304" height="236">
+        <img src="./img/gal02.jpg" class="float-end" alt="img02" width="304" height="236">
+    </div>
+
+    <div class="container mt-3">
+        <h2>Centered Image</h2>
+        <p>Center an image by adding the utility classes .mx-auto (margin:auto) and .d-block (display:block) to the
+            image:</p>
+        <img src="./img/gal02.jpg" class="mx-auto d-block" style="width:50%">
+    </div>
+
+    <div class="container mt-3">
+        <h2>Image</h2>
+        <p>The .img-fluid class makes the image scale nicely to the parent element (resize the browser window to see the
+            effect):</p>
+        <p>makes image responsive to size auto click on image to see the effect</p>
+        <a href="./04.1imgfluid.html"><img class="img-fluid" src="./img/gal02.jpg" alt="img02" width="1100"
+                height="500"></a>
+    </div>
+    <hr>
+
+    <div class="container-fluid row">
+
+        <div class="col"><img src="./img/gal02.jpg" class="rounded" alt="..." style="width: 75px;">
+        <p>rounded</p></div>
+
+        <div class="col"><img src="./img/gal02.jpg" class="rounded-top" alt="..." style="width: 75px;">
+        <p>rounded-top</p></div>
+
+        <div class="col"><img src="./img/gal02.jpg" class="rounded-end" alt="..." style="width: 75px;">
+        <p>rounded-end</p></div>
+        
+        <div class="col"><img src="./img/gal02.jpg" class="rounded-bottom" alt="..." style="width: 75px;">
+        <p>rounded-bottom</p></div>
+
+        <div class="col"><img src="./img/gal02.jpg" class="rounded-start" alt="..." style="width: 75px;">
+        <p>rounded-start</p></div>
+
+        <div class="col"><img src="./img/gal02.jpg" class="rounded-circle" alt="..." style="width: 75px;">
+        <p>rounded-circle</p></div>
+
+        <div class="col"><img src="./img/gal02.jpg" class="rounded-pill" alt="..." style="width: 75px;">
+        <p>rounded-pill</p></div>
+
+    </div>
+<hr>
+    <div class="container-fluid row">
+        <div class="col"><img src="./img/gal02.jpg" class="rounded-0" alt="..." style="width: 75px;">
+        <p>rounded-0</p></div>
+        <div class="col"><img src="./img/gal02.jpg" class="rounded-1" alt="..." style="width: 75px;">
+        <p>rounded-1</p></div>
+        <div class="col"><img src="./img/gal02.jpg" class="rounded-2" alt="..." style="width: 75px;">
+        <p>rounded-2</p></div>
+        <div class="col"><img src="./img/gal02.jpg" class="rounded-3" alt="..." style="width: 75px;">
+        <p>rounded-3</p></div>
+        <div class="col"><img src="./img/gal02.jpg" class="rounded-4" alt="..." style="width: 75px;">
+        <p>rounded-4</p></div>
+        <div class="col"><img src="./img/gal02.jpg" class="rounded-5" alt="..." style="width: 75px;">
+        <p>rounded-5</p></div>
+    </div>
+<hr>
+</body>
+
+</html>
